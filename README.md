@@ -65,4 +65,4 @@ You’ll see the probabilities for each class live on-screen.
 
 ---
 
-Created for teaching purposes by [Mario Koddenbrock](koddenbrock.com)
+Created for teaching purposes by [Mario Koddenbrock](https://mario-koddenbrock.github.io/)
