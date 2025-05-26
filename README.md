@@ -1,5 +1,5 @@
 
-# CLIP Webcam Demo 🎥🧠
+# CLIP Webcam Demo 
 
 A simple real-time webcam demo using OpenAI's [CLIP](https://openai.com/research/clip) model for **zero-shot classification**.
 
