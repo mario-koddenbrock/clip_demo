@@ -7,6 +7,9 @@ A simple real-time webcam demo using OpenAI's [CLIP](https://openai.com/research
 🧾 You enter a list of class names (e.g. "cat", "mug", "face")  
 🤖 It shows the predicted class probabilities on top of each frame  
 
+
+<img src="example_output.png" alt="CLIP Output" width="500"/>
+
 ---
 
 ## 📦 Requirements
