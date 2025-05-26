@@ -23,6 +23,8 @@ if __name__ == "__main__":
         print("Could not open webcam.")
         exit()
 
+    cv2.namedWindow("CLIP Webcam Demo", cv2.WINDOW_NORMAL)
+
     print("Press 'q' to quit.")
     while True:
         ret, frame = cap.read()
@@ -33,7 +35,7 @@ if __name__ == "__main__":
         probs = compute_probabilities(model, processor, image_pil, class_names, device)
 
         frame = draw_predictions(frame, class_names, probs)
-        cv2.imshow("CLIP Webcam Demo (HF)", frame)
+        cv2.imshow("CLIP Webcam Demo", frame)
 
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
